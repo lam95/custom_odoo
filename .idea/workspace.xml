@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ec353a1-8f1e-4643-b2dc-83c800d28db6" name="Default" comment="" />
+    <list default="true" id="3ec353a1-8f1e-4643-b2dc-83c800d28db6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/todo_app/static/desciription/icon.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default.cfg" afterPath="$PROJECT_DIR$/default.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_app/__manifest__.py" afterPath="$PROJECT_DIR$/todo_app/__manifest__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_app/todo_model.py" afterPath="$PROJECT_DIR$/todo_app/todo_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_app/views/todo_view.xml" afterPath="$PROJECT_DIR$/todo_app/views/todo_view.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +17,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/custom_addons$odoo_todo.coverage" NAME="odoo-todo Coverage Results" MODIFIED="1500971468921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
+    <SUITE FILE_PATH="coverage/custom_addons$odoo_todo.coverage" NAME="odoo-todo Coverage Results" MODIFIED="1501038644395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__manifest__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__manifest__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo_app/__manifest__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_view.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo_app/views/todo_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -39,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/todo_app/security/ir.model.access.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="1" column="81" lean-forward="true" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+              <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -54,6 +71,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -61,8 +81,9 @@
         <option value="$PROJECT_DIR$/todo_app/todo_model.py" />
         <option value="$PROJECT_DIR$/todo_app/views/todo_menu.xml" />
         <option value="$PROJECT_DIR$/todo_app/security/todo_access_rules.xml" />
-        <option value="$PROJECT_DIR$/todo_app/__manifest__.py" />
         <option value="$PROJECT_DIR$/todo_app/security/ir.model.access.csv" />
+        <option value="$PROJECT_DIR$/todo_app/__manifest__.py" />
+        <option value="$PROJECT_DIR$/todo_app/views/todo_view.xml" />
       </list>
     </option>
   </component>
@@ -78,6 +99,7 @@
     <option name="width" value="1311" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -94,6 +116,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,7 +181,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,6 +298,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -359,19 +387,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1311" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980901" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4918033" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49177876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,11 +429,34 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/todo_app/__init__.py">
+    <entry file="file://$PROJECT_DIR$/todo_app/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_app/security/todo_access_rules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_app/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -422,9 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13420">
           <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -478,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="381" column="0" lean-forward="false" selection-start-line="381" selection-start-column="0" selection-end-line="381" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,9 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#25#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,25 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo_app/views/todo_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../odoo/odoo/modules/registry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding>
-            <marker date="1500630906858" expanded="true" signature="7904:7948" ph="SELECT * FRO... ir_model_fields" />
-            <marker date="1500630906858" expanded="true" signature="10351:10388" ph="SELECT * FRO... ir_model" />
-            <marker date="1500630906858" expanded="true" signature="13768:13868" ph="SELECT seque... sequences" />
-            <marker date="1500630906858" expanded="true" signature="14267:14453" ph="SELECT base_... base_registry_signaling" />
-            <marker date="1500630906858" expanded="true" signature="15022:15208" ph="SELECT base_... base_registry_signaling" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,94 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="4785" column="0" lean-forward="false" selection-start-line="4785" selection-start-column="0" selection-end-line="4785" selection-end-column="0" />
-          <folding>
-            <marker date="1500630906710" expanded="true" signature="10569:10746" ph="UPDATE ir_mo... " />
-            <marker date="1500630906710" expanded="true" signature="10815:11005" ph="INSERT INTO ir_model... " />
-            <marker date="1500630906710" expanded="true" signature="11391:11446" ph="SELECT * FRO... ir_model_data" />
-            <marker date="1500630906710" expanded="true" signature="11569:11759" ph="INSERT INTO ir_model_data... " />
-            <marker date="1500630906710" expanded="true" signature="11946:11990" ph="SELECT * FRO... ir_model_fields" />
-            <marker date="1500630906710" expanded="true" signature="14022:14079" ph="INSERT INTO ir_model_fields... " />
-            <marker date="1500630906710" expanded="true" signature="14587:14631" ph="SELECT name ir_model_data" />
-            <marker date="1500630906710" expanded="true" signature="14777:14971" ph="INSERT INTO ir_model_data... " />
-            <marker date="1500630906710" expanded="true" signature="15212:15296" ph="UPDATE ir_mo... " />
-            <marker date="1500630906710" expanded="true" signature="30724:30828" ph="SELECT 1 FRO... pg_class" />
-            <marker date="1500630906710" expanded="true" signature="58012:58095" ph="SELECT res_i... ir_model_data" />
-            <marker date="1500630906710" expanded="true" signature="87553:87777" ph="SELECT min(&quot;... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="92061:92101" ph="SELECT id FR... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="92200:92260" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="92650:92694" ph="SELECT id FR... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="93699:94076" ph="SELECT a.att... pg_class" />
-            <marker date="1500630906710" expanded="true" signature="94408:94456" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="95228:95452" ph="SELECT type,... ir_model_constraint" />
-            <marker date="1500630906710" expanded="true" signature="95608:95942" ph="INSERT INTO ir_model_constraint... " />
-            <marker date="1500630906710" expanded="true" signature="96169:96367" ph="UPDATE ir_mo... " />
-            <marker date="1500630906710" expanded="true" signature="96545:96576" ph="ALTER TABLE missing_value... " />
-            <marker date="1500630906710" expanded="true" signature="96913:97116" ph="SELECT 1 FRO... ir_model_relation" />
-            <marker date="1500630906710" expanded="true" signature="97214:97517" ph="INSERT INTO ir_model_relation... " />
-            <marker date="1500630906710" expanded="true" signature="99089:99972" ph="SELECT confd... pg_constraint" />
-            <marker date="1500630906710" expanded="true" signature="102385:102427" ph="UPDATE &quot;miss... " />
-            <marker date="1500630906710" expanded="true" signature="104462:104488" ph="SELECT 1 FRO... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="105889:105925" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="107655:107695" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="108103:108158" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="108231:108264" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="108355:108394" ph="UPDATE &quot;miss... " />
-            <marker date="1500630906710" expanded="true" signature="108485:108538" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="109255:109295" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="109579:109634" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="109715:109748" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="109837:109875" ph="UPDATE &quot;miss... " />
-            <marker date="1500630906710" expanded="true" signature="109964:110018" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="110653:110903" ph="SELECT count... pg_class" />
-            <marker date="1500630906710" expanded="true" signature="111198:111246" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="111319:111362" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="111444:111477" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="112348:112395" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="113242:113290" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="113685:113757" ph="SELECT index... pg_indexes" />
-            <marker date="1500630906710" expanded="true" signature="115687:115720" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="117331:117378" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="118163:118233" ph="SELECT relna... pg_class" />
-            <marker date="1500630906710" expanded="true" signature="119337:119405" ph="ALTER TABLE &quot;%s&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="119965:120035" ph="SELECT relna... pg_class" />
-            <marker date="1500630906710" expanded="true" signature="120192:120247" ph="CREATE TABLE... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="120496:120621" ph="SELECT c.rel... pg_class" />
-            <marker date="1500630906710" expanded="true" signature="120804:120853" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="120899:120949" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="122479:122849" ph="SELECT c.rel... " />
-            <marker date="1500630906710" expanded="true" signature="123383:123420" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="123890:123927" ph="ALTER TABLE &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="125030:125261" ph="SELECT defin... ir_model_constraint" />
-            <marker date="1500630906710" expanded="true" signature="144263:144353" ph="SELECT missi... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="148247:148464" ph="SELECT missi... " />
-            <marker date="1500630906710" expanded="true" signature="149898:149922" ph="SELECT id FR... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="150847:150880" ph="SELECT id FR... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="153554:153604" ph="SELECT DISTI... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="154120:154163" ph="SELECT missi... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="157612:157642" ph="DELETE FROM " />
-            <marker date="1500630906710" expanded="true" signature="158973:159037" ph="SELECT id FR... ir_attachment" />
-            <marker date="1500630906710" expanded="true" signature="166612:166685" ph="SELECT id FR... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="166905:166969" ph="SELECT id FR... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="168807:168841" ph="UPDATE &quot;miss... " />
-            <marker date="1500630906710" expanded="true" signature="171437:171479" ph="SELECT DISTI... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="173061:173114" ph="SELECT paren... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="173687:173737" ph="SELECT id, p... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="174350:174389" ph="SELECT paren... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="174722:174786" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="174852:174919" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="175113:175266" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="175437:175590" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="181674:181719" ph="INSERT INTO &quot;missing_value&quot;... " />
-            <marker date="1500630906710" expanded="true" signature="182990:183040" ph="SELECT paren... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="183489:183528" ph="SELECT paren... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="183754:183784" ph="SELECT MAX(p... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="183965:184027" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="184109:184174" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="184256:184316" ph="UPDATE missi... " />
-            <marker date="1500630906710" expanded="true" signature="205679:205714" ph="SELECT id FR... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="206776:206812" ph="SELECT &quot;miss... missing_value" />
-            <marker date="1500630906710" expanded="true" signature="207834:207900" ph="SELECT &quot;miss... missing_value" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="751" column="0" lean-forward="false" selection-start-line="751" selection-start-column="0" selection-end-line="751" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,21 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <marker date="1500630906710" expanded="true" signature="6138:6185" ph="update ir_mo... " />
-            <marker date="1500630906710" expanded="true" signature="8448:8512" ph="SELECT count... " />
-            <marker date="1500630906710" expanded="true" signature="8675:8708" ph="SELECT name ir_module_module" />
-            <marker date="1500630906710" expanded="true" signature="9217:9268" ph="SELECT name ir_module_module" />
-            <marker date="1500630906710" expanded="true" signature="10729:10792" ph="update ir_mo... " />
-            <marker date="1500630906710" expanded="true" signature="12856:12906" ph="update ir_mo... " />
-            <marker date="1500630906710" expanded="true" signature="14892:14987" ph="select model... ir_model" />
-            <marker date="1500630906710" expanded="true" signature="14941:14986" ph="select disti... ir_model_access" />
-            <marker date="1500630906710" expanded="true" signature="15571:15673" ph="select disti... ir_model_access" />
-            <marker date="1500630906710" expanded="true" signature="15939:15965" ph="SELECT model... ir_model" />
-            <marker date="1500630906710" expanded="true" signature="16801:16853" ph="SELECT name,... ir_module_module" />
-            <marker date="1500630906710" expanded="true" signature="18750:18826" ph="SELECT name ir_module_module" />
-            <marker date="1500630906710" expanded="true" signature="18897:18954" ph="SELECT name ir_module_module" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,16 +586,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="888" column="5" lean-forward="true" selection-start-line="888" selection-start-column="5" selection-end-line="888" selection-end-column="5" />
-          <folding>
-            <marker date="1500630906878" expanded="true" signature="21163:21197" ph="select name missing_value" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_app/security/ir.model.access.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="81" lean-forward="true" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+          <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -691,8 +607,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_app/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_app/views/todo_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
           <folding />
         </state>
       </provider>
