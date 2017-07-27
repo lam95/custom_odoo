@@ -1,0 +1,5 @@
+id,name,user_id/id,date_deadline
+todo_task_demo_1,"Import first demo database","base.user_root",""
+todo_task_demo_2","Import second demo database","base.user_root","2018-01-03"
+todo_task_a,"Install Odoo","base.user_root","2017-01-12" 
+todo_task_b","Create dev database","base.user_root","2017-11-07"
