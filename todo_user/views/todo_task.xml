@@ -7,6 +7,14 @@
             <field name="name">My To-Do</field> 
         </record>
 
+        <!-- Action to open To-Do Task list --> 
+        <record model="ir.actions.act_window"
+            id="todo_app.action_todo_task"> 
+            <field name="context"> 
+                {'search_default_filter_my_tasks': True} 
+            </field> 
+        </record>
+
         <record id="view_form_todo_task_inherited" model="ir.ui.view">
             <field name="name">Todo Task form - User extension</field>
             <field name="model">todo.task</field>
