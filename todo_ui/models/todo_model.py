@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from odoo import models, fields, api
 from odoo.addons.base.res.res_request import referenceable_models
+from odoo.exceptions import ValidationError
 
 class Tag(models.Model):
     """docstring for Tag"""
@@ -43,8 +44,15 @@ class TodoTask(models.Model):
     #refers_to = fields.Reference([('res.user', 'User'), ('res.partner', 'Partner')], 'Refers to')
     refers_to = fields.Reference(referenceable_models, 'Refers to')
     stage_fold = fields.Boolean('Stage Folded?', compute='_compute_stage_fold')
+    _sql_constraints = [('todo_task_name_uniq', 'UNIQUE (name, active)', 'Task title must be unique!')]
 
     @api.depends('stage_id.fold')
     def _compute_stage_fold(self):
         for task in self:
             task.stage_fold = task.stage_id.fold
+
+    @api.constrains('name')
+    def _check_name_size(self):
+        for todo in self:
+            if len(todo.name) < 5:
+                raise ValidationError('Must have 5 chars!')
