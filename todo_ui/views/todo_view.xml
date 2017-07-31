@@ -1,19 +1,27 @@
 <?xml version="1.0"?> 
 <odoo>
     <!--    Content will    go  here... --> 
-    <!-- <record id="view_form_todo_task_ui" model="ir.ui.view"> 
-        <field  name="model">todo.task</field>  
-        <field  name="priority">15</field>  
-        <field  name="arch" type="xml"> 
+    <record id="view_form_todo_task_ui" model="ir.ui.view"> 
+        <field name="model">todo.task</field>  
+        <field name="priority">15</field>  
+        <field name="arch" type="xml"> 
             <form>
                 <header>
-                    <field name="state" invisible="True"/>
+                    <!-- <field name="state" invisible="True"/>
                     <button name="do_toggle_done" type="object" attrs="{'invisible':[('state','in',['draft'])]}"
                     string="Toggle  Done" class="oe_highlight"/>
-                    <field name="stage_id" widget="statusbar" clickable="True" options="{'fold_field': 'fold'}"/>
+                    <field name="stage_id" widget="statusbar" clickable="True" options="{'fold_field': 'fold'}"/> -->
                 </header>
                 <sheet>
-                    
+                    <div class="oe_title"> 
+                        <label for="name" class="oe_edit_only"/> 
+                        <h1><field name="name"/></h1> 
+                        <h3> 
+                            <span class="oe_read_only">By</span> 
+                            <label for="user_id" class="oe_edit_only"/> 
+                            <field name="user_id" class="oe_inline" /> 
+                        </h3> 
+                    </div>
                 </sheet>
                 <div class="oe_chatter">
                     <field name="message_follower_ids" widget="mail_followers"/>
@@ -21,7 +29,7 @@
                 </div>
             </form>
         </field>
-    </record> -->
+    </record>
     <!--    calendar will    go  here... --> 
     <record id="view_calendar_todo_task" model="ir.ui.view"> 
       <field name="model">todo.task</field> 

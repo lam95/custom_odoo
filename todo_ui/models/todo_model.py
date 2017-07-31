@@ -43,8 +43,12 @@ class TodoTask(models.Model):
     tag_ids = fields.Many2many('todo.task.tag','todo_task_tag_rel','task_id', 'tag_id', string='Tags')
     #refers_to = fields.Reference([('res.user', 'User'), ('res.partner', 'Partner')], 'Refers to')
     refers_to = fields.Reference(referenceable_models, 'Refers to')
-    stage_fold = fields.Boolean('Stage Folded?', compute='_compute_stage_fold')
+    stage_fold = fields.Boolean('Stage Folded?', compute='_compute_stage_fold', search='_search_stage_fold',inverse='_write_stage_fold')
     _sql_constraints = [('todo_task_name_uniq', 'UNIQUE (name, active)', 'Task title must be unique!')]
+    def _search_stage_fold(self, operator, value):
+        return [('stage_id.fold', operator, value)]
+    def _write_stage_fold(self):
+        self.stage_id.fold = self.stage_fold
 
     @api.depends('stage_id.fold')
     def _compute_stage_fold(self):
