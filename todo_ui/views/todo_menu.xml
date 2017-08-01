@@ -9,6 +9,8 @@
     <!--    Add option  to  the "More"  button  --> 
     <act_window id="action_todo_task_stage" name="To-Do Task tages" res_model="todo.task.stage" 
         src_model="todo.task" multi="False" />
+    <act_window id="action_todo_task_button" name="To-Do Tasks" res_model="todo.task"
+        view_mode="tree,form,calendar,graph,pivot" domain="[('user_id','=',default_user_id)]" />
     <!--    Modify  top menu  item    -->
     <menuitem id="todo_app.menu_todo_task" name="To-Do" />
     <!--    App menu  items   -->

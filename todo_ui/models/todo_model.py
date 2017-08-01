@@ -48,7 +48,7 @@ class TodoTask(models.Model):
 
     def _search_stage_fold(self, operator, value):
         return [('stage_id.fold', operator, value)]
-        
+
     def _write_stage_fold(self):
         self.stage_id.fold = self.stage_fold
 
@@ -62,3 +62,9 @@ class TodoTask(models.Model):
         for todo in self:
             if len(todo.name) < 5:
                 raise ValidationError('Must have 5 chars!')
+
+    def compute_user_todo_count(self):
+        for task in self:
+            task.user_todo_count = task.search_count([('user_id', '=', 'task.user_id.id')])
+
+    user_todo_count = fields.Integer('User To-Do Count',compute='compute_user_todo_count')
