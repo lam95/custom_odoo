@@ -9,7 +9,7 @@
         <form>
             <header>
                 <field name="stage_id" invisible="True"/>
-                <button name="do_toggle_done" type="object" attrs=" {'invisible':[('stage_id','in',['draft'])]}"
+                <button name="do_toggle_done" type="object" attrs="{'invisible':[('stage_id','in',['draft'])]}"
                     string="Toggle Done" class="oe_highlight"/>
                 <field name="stage_id" widget="statusbar" clickable="True" options="{'fold_field':'fold'}"/>
             </header>
@@ -30,6 +30,10 @@
                 <field name="message_ids" widget="mail_thread"/>
             </div>
             <div name="buttons" class="oe_right oe_button_box">
+                <button class="oe_stat_button" type="action" icon="fa-tasks" name="%(action_todo_task_button)d"
+                    context="{'default_user_id': user_id}" help="All to-dos for this user" >
+                    <field string="To-Dos" name="user_todo_count" widget="statinfo"/>
+                </button>
             </div>
             <div>
                 <group name="group_top"> 
@@ -46,6 +50,32 @@
         </form>
       </field>
     </record>
+    <!--    list will    go  here... --> 
+    <record id="todo_app.view_tree_todo_task" model="ir.ui.view"> 
+      <field name="model">todo.task</field> 
+      <field name="arch" type="xml"> 
+        <tree decoration-muted="is_done" decoration-bf="stage_id" delete="false"> 
+            <field name="name"/> 
+            <field name="user_id"/> 
+            <field name="is_done"/>
+            <field name="stage_id" invisible="1"/>
+        </tree> 
+      </field> 
+    </record>
+    <!--    filter will    go  here... --> 
+    <record id="todo_app.view_filter_todo_task" model="ir.ui.view"> 
+      <field name="model">todo.task</field> 
+      <field name="arch" type="xml"> 
+        <search> 
+          <field name="name"/> 
+          <field name="user_id"/> 
+          <filter name="filter_not_done" string="Not Done" domain="[('is_done','=',False)]"/> 
+          <filter name="filter_done" string="Done" domain="[('is_done','!=',False)]"/> 
+          <separator/> 
+          <filter name="group_user" string="By User" context="{'group_by': 'user_id'}"/> 
+        </search> 
+      </field> 
+    </record>
     <!--    calendar will    go  here... --> 
     <record id="view_calendar_todo_task" model="ir.ui.view"> 
         <field name="model">todo.task</field> 
@@ -56,5 +86,6 @@
             </calendar> 
         </field> 
     </record>
+    
   </data>
 </odoo>

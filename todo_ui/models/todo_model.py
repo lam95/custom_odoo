@@ -67,4 +67,9 @@ class TodoTask(models.Model):
         for task in self:
             task.user_todo_count = task.search_count([('user_id', '=', 'task.user_id.id')])
 
+    # def compute_effort_estimate(self):
+    #     for task in self:
+    #         task.effort_estimate = 2*task.search_count([('user_id', '=', 'task.user_id.id')])
+
     user_todo_count = fields.Integer('User To-Do Count',compute='compute_user_todo_count')
+    effort_estimate = fields.Integer('Effort Estimate')
