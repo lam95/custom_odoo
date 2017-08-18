@@ -1,0 +1,19 @@
+<?xml version="1.0"?> 
+<odoo>
+  <data>       
+    <act_window id="todo_app.action_todo_task"  name="To-Do Tasks" res_model="todo.task" view_mode="kanban,tree,form,calendar,graph,pivot" context="{'search_default_filter_my_tasks': True}"/>
+    <record id="To-do   Task    Kanban" model="ir.ui.view"> 
+        <field  name="model">todo.task</field>  
+        <field  name="arch" type="xml"> 
+            <kanban default_group_by="stage_id" class="o_kanban_small_column">
+                <field name="stage_id"/>  
+                <field name="color" />  
+                <field name="kanban_state"/>  
+                <field name="priority"/> 
+                <field name="is_done"/>
+                <field name="message_partner_ids"/>
+            </kanban>
+        </field>
+    </record>
+  </data>
+</odoo>
