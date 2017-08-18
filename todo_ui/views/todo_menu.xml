@@ -3,6 +3,8 @@
     <!--    Actions for the menu    items   --> 
     <act_window id="action_todo_stage" name="To-Do Task Stages" res_model="todo.task.stage" 
         view_mode="tree,form" target="current" context="{'default_state': 'open'}" domain="[]" limit="80"/>
+    <act_window id="action_todo_tag" name="To-Do Task Tags" res_model="todo.task.tag" 
+        view_mode="tree,form" target="current" context="{'default_state': 'open'}" domain="[]" limit="80"/>
     <act_window id="todo_app.action_todo_task" name="To-Do Tasks" res_model="todo.task" 
         view_mode="tree,form,calendar,graph,pivot" target="current" 
         context="{'search_default_filter_my_tasks': True}"/>
@@ -20,4 +22,6 @@
         groups="base.group_system" />
     <menuitem id="menu_todo_task_stage" name="Stages" parent="menu_todo_config" sequence="10" 
         action="action_todo_stage" />
+    <menuitem id="menu_todo_task_tag" name="Tags" parent="menu_todo_config" sequence="10" 
+        action="action_todo_tag" />
 </odoo>
