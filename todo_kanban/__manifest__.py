@@ -5,8 +5,6 @@
     'depends': ['todo_ui'],
 
     'data': [
-        #'security/ir.model.access.csv',
-        #'views/todo_view.xml',
-        #'views/todo_menu.xml',
+        'views/todo_view.xml',
     ],
 }
