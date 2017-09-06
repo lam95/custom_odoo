@@ -1,0 +1,62 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pk_employee
+#
+# Translators:
+# lam nguyen <lamev.inc@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-26 08:44+0000\n"
+"PO-Revision-Date: 2017-09-06 10:14+0700\n"
+"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: pk_employee
+#: model:ir.ui.view,arch_db:hr.view_employee_form
+#: model:ir.model.fields,field_description:pk_employee.field_hr_employee_tax_code
+msgid "Tax Code"
+msgstr "Mã số thuế"
+
+#. module: pk_employee
+#: model:ir.ui.view,arch_db:hr.view_employee_form
+#: model:ir.model.fields,field_description:pk_employee.field_hr_employee_social_insurance_id
+msgid "Social Insurance Id"
+msgstr "Số sổ BHXH"
+
+#. module: pk_employee
+#: model:ir.ui.view,arch_db:hr.view_employee_form
+#: model:ir.model.fields,field_description:pk_employee.field_hr_employee_edu_degree
+msgid "Education Degree"
+msgstr "Trình độ học vấn"
+
+#. module: pk_employee
+#: model:ir.ui.view,arch_db:hr.view_employee_form
+#: model:ir.model.fields,field_description:pk_employee.field_hr_employee_school
+msgid "School"
+msgstr "Tên trường"
+
+#. module: pk_employee
+#: model:ir.ui.view,arch_db:hr.view_employee_form
+#: model:ir.model.fields,field_description:pk_employee.field_hr_employee_major
+msgid "Major"
+msgstr "Chuyên ngành"
+
+#. module: pk_employee
+#: model:ir.ui.view,arch_db:hr.view_employee_form
+#: model:ir.model.fields,field_description:pk_employee.field_hr_employee_awards
+msgid "Awards"
+msgstr "Hệ đào tạo"
+
+#. module: pk_employee
+#: model:ir.ui.view,arch_db:hr.view_employee_form
+#: model:ir.model.fields,field_description:pk_employee.field_hr_employee_grade
+msgid "Grade"
+msgstr "Xếp loại"
