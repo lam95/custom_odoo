@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ec353a1-8f1e-4643-b2dc-83c800d28db6" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pk_employee/i18n/vi_VN.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pk_employee/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pk_employee/models/hr.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pk_employee/views/hr_views.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -443,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504716334260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[odoo] custom employee module - add fields">
+      <created>1504716578923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504716578923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,7 +484,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[odoo] create custom employee module" />
-    <option name="LAST_COMMIT_MESSAGE" value="[odoo] create custom employee module" />
+    <MESSAGE value="[odoo] custom employee module - add fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="[odoo] custom employee module - add fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

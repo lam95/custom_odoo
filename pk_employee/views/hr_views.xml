@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Employee -->
+        <record id="view_employee_form_inherited" model="ir.ui.view">
+            <field name="name">hr.employee.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <field name="bank_account_id" position="after">
+                    <field name="tax_code" />
+                    <field name="social_insurance_id"/>
+                </field>
+                <page name="personal_information" string="Personal Information" groups="hr.group_hr_user">
+                    <group string="Education Background">
+                        <field name="edu_degree"/>
+                        <field name="school"/>
+                        <field name="major"/>
+                        <field name="awards"/>
+                        <field name="grade"/>
+                    </group>
+                </page>
+            </field>
+        </record>
+
+    </data>
+</odoo>
